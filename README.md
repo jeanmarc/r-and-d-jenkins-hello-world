@@ -48,8 +48,11 @@ Following https://www.jenkins.io/doc/book/installing/kubernetes/#:~:text=Kuberne
 # create a first pipeline for a demo application
 * Github-connection setup
 * Demo repo (added some Java files and a bare minimum pom.xml) and publish: https://github.com/jeanmarc/r-and-d-jenkins-hello-world
-* Add Jenkinsfile
-* Create pipeline in Jenkins
+  * Public repo, so Jenkins will be able to pull it without issues
+* Jenkins setup pipeline
+  * following https://www.jenkins.io/doc/tutorials/build-a-java-app-with-maven/
+  * Add Jenkinsfile
+  * Create pipeline in Jenkins (New Item)
 * Manually run it successfully
 
 # Install MCP plugin

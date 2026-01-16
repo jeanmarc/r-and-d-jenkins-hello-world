@@ -40,3 +40,16 @@ Following https://www.jenkins.io/doc/book/installing/kubernetes/#:~:text=Kuberne
   * `kubectl get pods --namespace=devops-tools` to get the pod name
   * `kubectl logs [podname] --namespace=devops-tools` and find the password (in the logs between the `***********` lines)
 * Continue configuring Jenkins initial setup
+  * Chose custom setup, but used default selection anyway
+  * Create admin user (see secrets.md)
+  * Set instance url: `http://127.0.0.1:32000`
+  * 
+
+# create a first pipeline for a demo application
+* Github-connection setup
+* Demo repo
+* Add Jenkinsfile
+* Create pipeline in Jenkins
+* Manually run it successfully
+
+# Install MCP plugin

@@ -47,7 +47,7 @@ Following https://www.jenkins.io/doc/book/installing/kubernetes/#:~:text=Kuberne
 
 # create a first pipeline for a demo application
 * Github-connection setup
-* Demo repo
+* Demo repo (added some Java files and a bare minimum pom.xml)
 * Add Jenkinsfile
 * Create pipeline in Jenkins
 * Manually run it successfully

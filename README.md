@@ -51,7 +51,10 @@ Following https://www.jenkins.io/doc/book/installing/kubernetes/#:~:text=Kuberne
   * Public repo, so Jenkins will be able to pull it without issues
 * Jenkins setup pipeline
   * following https://www.jenkins.io/doc/tutorials/build-a-java-app-with-maven/
+  * Add maven config in the Jenkins server (gear icon > configure tools, add a maven config)
+  * ![jenkins_maven_config.png](images/jenkins_maven_config.png)
   * Add Jenkinsfile
+    * do not forget to add a tools section and mention the correct maven version
   * Create pipeline in Jenkins (New Item)
 * Manually run it successfully
 
